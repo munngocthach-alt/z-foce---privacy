@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Z-Force: The Laboratory – Delete Your Data</title>
+<style>
+  :root { --ink: #1d2733; --muted: #566270; --line: #d8dee5; --accent: #2f8f3a; --bg: #ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #e8edf2; --muted: #a7b2bd; --line: #33404d; --accent: #7fd36b; --bg: #111820; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 32px 0 8px; color: var(--accent); }
+  .meta { color: var(--muted); margin: 0 0 24px; }
+  ol, ul { padding-left: 20px; }
+  li { margin: 4px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0 0; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; border-top: 1px solid var(--line); padding: 8px 8px 8px 0; }
+  th { color: var(--muted); font-weight: 600; }
+  a { color: var(--accent); }
+  .box { border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Delete your data</h1>
+<p class="meta">Z-Force: The Laboratory · developer: the stone · Android app <code>com.thachnguyen.zombieproto</code></p>
+
+<p>The game has no accounts and does not ask for your name, email or phone number. This page explains how to delete the
+data connected to your use of <strong>Z-Force: The Laboratory</strong>, what is deleted, and what is kept.</p>
+
+<h2>How to request deletion</h2>
+<ol>
+  <li><strong>Data on your device</strong> (settings, progress, purchase status): uninstall the game, or open Android
+      <em>Settings → Apps → Z-Force: The Laboratory → Storage → Clear storage</em>. This deletes it immediately.</li>
+  <li><strong>Advertising data</strong> linked to your advertising ID: open Android <em>Settings → Privacy → Ads</em>
+      (or <em>Settings → Google → Ads</em>) and choose <em>Delete advertising ID</em> or <em>Reset advertising ID</em>.
+      This breaks the link between you and the data the ad services collected.</li>
+  <li><strong>Data held for online Co-op and ads</strong> (anonymous player ID, connection data, ad data): send an email
+      to us and we will delete it or pass the request to Unity.
+      <div class="box">
+        To: <a href="mailto:gamevui.thestone@gmail.com?subject=Z-Force%20data%20deletion%20request">gamevui.thestone@gmail.com</a><br>
+        Subject: <strong>Z-Force data deletion request</strong><br>
+        Include: your device model and roughly when you last played online Co-op.
+      </div>
+      You can also ask Unity directly, as described in
+      <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity's Game Player and App User Privacy Policy</a>.</li>
+</ol>
+
+<h2>What is deleted and what is kept</h2>
+<table>
+  <tr><th>Data</th><th>What happens</th></tr>
+  <tr><td>Settings, story progress, purchase status stored on the device</td>
+      <td>Deleted immediately when you uninstall or clear storage.</td></tr>
+  <tr><td>Anonymous player ID and data linked to it (Unity Gaming Services, online Co-op)</td>
+      <td>Deleted within 30 days of your request.</td></tr>
+  <tr><td>Advertising data (advertising ID, device information, approximate location from IP address, ad interactions,
+      diagnostics) collected by Unity LevelPlay and Unity Ads</td>
+      <td>We forward your request to Unity, which deletes it under its privacy policy. Resetting or deleting your
+      advertising ID also unlinks it from you.</td></tr>
+  <tr><td>Purchase records for “Remove Ads + Co-op”</td>
+      <td>Kept by Google Play, which processes the payment, as required for tax and legal reasons under
+      <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. We cannot delete Google's records.
+      Your purchase can still be restored from Google Play after reinstalling.</td></tr>
+  <tr><td>Anonymous, aggregated reports (for example, how many ads were shown)</td>
+      <td>Kept. They contain no information that identifies you.</td></tr>
+</table>
+
+<h2>More information</h2>
+<p>See the full <a href="privacy-policy.html">Privacy Policy</a>. Questions:
+<a href="mailto:gamevui.thestone@gmail.com">gamevui.thestone@gmail.com</a>.</p>
+</main>
+</body>
+</html>
